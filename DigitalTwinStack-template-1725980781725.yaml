@@ -1,0 +1,1141 @@
+---
+Metadata:
+  TemplateId: "arn:aws:cloudformation:us-east-1:144646901847:generatedTemplate/7b3907ae-50f6-41e1-899d-bac11b4e1ddb"
+Parameters:
+  LambdaFunction003phleak00nvGkWCodeImageUriEBUVE:
+    NoEcho: "true"
+    Type: "String"
+    Description: "URI of a [container image](https://docs.aws.amazon.com/lambda/latest/dg/lambda-images.html)\
+      \ in the Amazon ECR registry."
+  LambdaFunction003phleak00nvGkWCodeZipFilepG3Xp:
+    NoEcho: "true"
+    Type: "String"
+    Description: "(Node.js and Python) The source code of your Lambda function. If\
+      \ you include your function source inline with this parameter, CFN places it\
+      \ in a file named ``index`` and zips it to create a [deployment package](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-package.html).\
+      \ This zip file cannot exceed 4MB. For the ``Handler`` property, the first part\
+      \ of the handler identifier must be ``index``. For example, ``index.handler``.\n\
+      \  For JSON, you must escape quotes and special characters such as newline (``\\\
+      n``) with a backslash.\n If you specify a function that interacts with an AWS\
+      \ CloudFormation custom resource, you don't have to write your own functions\
+      \ to send responses to the custom resource that invoked the function. AWS CloudFormation\
+      \ provides a response module ([cfn-response](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-lambda-function-code-cfnresponsemodule.html))\
+      \ that simplifies sending responses. See [Using Lambda with CloudFormation](https://docs.aws.amazon.com/lambda/latest/dg/services-cloudformation.html)\
+      \ for details."
+  LambdaFunction003phleak00nvGkWCodeSourceKMSKeyArnMlEuM:
+    NoEcho: "true"
+    Type: "String"
+    Description: "Value of write only property Code/SourceKMSKeyArn of resource LambdaFunction003phleak00nvGkW."
+  LambdaFunction00TwinMakerDataReader00twxvlCodeS3Buckety00aL:
+    NoEcho: "true"
+    Type: "String"
+    Description: "An Amazon S3 bucket in the same AWS-Region as your function. The\
+      \ bucket can be in a different AWS-account."
+  LambdaFunction003phleakAlarmModelNotificationLambda170323392496500IWDvOCodeImageUriUWacT:
+    NoEcho: "true"
+    Type: "String"
+    Description: "URI of a [container image](https://docs.aws.amazon.com/lambda/latest/dg/lambda-images.html)\
+      \ in the Amazon ECR registry."
+  LambdaFunction003phleakAlarmModelNotificationLambda170323392496500IWDvOCodeS3KeykBFGW:
+    NoEcho: "true"
+    Type: "String"
+    Description: "The Amazon S3 key of the deployment package."
+  LambdaFunction00dynamodbingest00xQJqiCodeZipFileIGY2y:
+    NoEcho: "true"
+    Type: "String"
+    Description: "(Node.js and Python) The source code of your Lambda function. If\
+      \ you include your function source inline with this parameter, CFN places it\
+      \ in a file named ``index`` and zips it to create a [deployment package](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-package.html).\
+      \ This zip file cannot exceed 4MB. For the ``Handler`` property, the first part\
+      \ of the handler identifier must be ``index``. For example, ``index.handler``.\n\
+      \  For JSON, you must escape quotes and special characters such as newline (``\\\
+      n``) with a backslash.\n If you specify a function that interacts with an AWS\
+      \ CloudFormation custom resource, you don't have to write your own functions\
+      \ to send responses to the custom resource that invoked the function. AWS CloudFormation\
+      \ provides a response module ([cfn-response](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-lambda-function-code-cfnresponsemodule.html))\
+      \ that simplifies sending responses. See [Using Lambda with CloudFormation](https://docs.aws.amazon.com/lambda/latest/dg/services-cloudformation.html)\
+      \ for details."
+  LambdaFunction003phleakAlarmModelNotificationLambda170323392496500IWDvOCodeS3BucketGMNYR:
+    NoEcho: "true"
+    Type: "String"
+    Description: "An Amazon S3 bucket in the same AWS-Region as your function. The\
+      \ bucket can be in a different AWS-account."
+  LambdaFunction00TwinMakerDataReader00twxvlCodeS3Key55seF:
+    NoEcho: "true"
+    Type: "String"
+    Description: "The Amazon S3 key of the deployment package."
+  LambdaFunction003phleak00nvGkWCodeS3ObjectVersionsd7Ba:
+    NoEcho: "true"
+    Type: "String"
+    Description: "For versioned objects, the version of the deployment package object\
+      \ to use."
+  LambdaFunction003phleak00nvGkWCodeS3KeyAr2D4:
+    NoEcho: "true"
+    Type: "String"
+    Description: "The Amazon S3 key of the deployment package."
+  LambdaFunction00dynamodbingest00xQJqiCodeS3Keyuuxml:
+    NoEcho: "true"
+    Type: "String"
+    Description: "The Amazon S3 key of the deployment package."
+  LambdaFunction003phleakAlarmModelNotificationLambda170323392496500IWDvOCodeZipFileFQXMH:
+    NoEcho: "true"
+    Type: "String"
+    Description: "(Node.js and Python) The source code of your Lambda function. If\
+      \ you include your function source inline with this parameter, CFN places it\
+      \ in a file named ``index`` and zips it to create a [deployment package](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-package.html).\
+      \ This zip file cannot exceed 4MB. For the ``Handler`` property, the first part\
+      \ of the handler identifier must be ``index``. For example, ``index.handler``.\n\
+      \  For JSON, you must escape quotes and special characters such as newline (``\\\
+      n``) with a backslash.\n If you specify a function that interacts with an AWS\
+      \ CloudFormation custom resource, you don't have to write your own functions\
+      \ to send responses to the custom resource that invoked the function. AWS CloudFormation\
+      \ provides a response module ([cfn-response](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-lambda-function-code-cfnresponsemodule.html))\
+      \ that simplifies sending responses. See [Using Lambda with CloudFormation](https://docs.aws.amazon.com/lambda/latest/dg/services-cloudformation.html)\
+      \ for details."
+  LambdaFunction003phleak00nvGkWCodeS3BucketlN8PM:
+    NoEcho: "true"
+    Type: "String"
+    Description: "An Amazon S3 bucket in the same AWS-Region as your function. The\
+      \ bucket can be in a different AWS-account."
+  LambdaFunction003phleakAlarmModelNotificationLambda170323392496500IWDvOCodeSourceKMSKeyArnfKRIx:
+    NoEcho: "true"
+    Type: "String"
+    Description: "Value of write only property Code/SourceKMSKeyArn of resource LambdaFunction003phleakAlarmModelNotificationLambda170323392496500IWDvO."
+  LambdaFunction00TwinMakerDataReader00twxvlCodeImageUri5MpVV:
+    NoEcho: "true"
+    Type: "String"
+    Description: "URI of a [container image](https://docs.aws.amazon.com/lambda/latest/dg/lambda-images.html)\
+      \ in the Amazon ECR registry."
+  LambdaFunction00dynamodbingest00xQJqiCodeImageUri825uy:
+    NoEcho: "true"
+    Type: "String"
+    Description: "URI of a [container image](https://docs.aws.amazon.com/lambda/latest/dg/lambda-images.html)\
+      \ in the Amazon ECR registry."
+  LambdaFunction00TwinMakerDataReader00twxvlCodeZipFilegJxtN:
+    NoEcho: "true"
+    Type: "String"
+    Description: "(Node.js and Python) The source code of your Lambda function. If\
+      \ you include your function source inline with this parameter, CFN places it\
+      \ in a file named ``index`` and zips it to create a [deployment package](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-package.html).\
+      \ This zip file cannot exceed 4MB. For the ``Handler`` property, the first part\
+      \ of the handler identifier must be ``index``. For example, ``index.handler``.\n\
+      \  For JSON, you must escape quotes and special characters such as newline (``\\\
+      n``) with a backslash.\n If you specify a function that interacts with an AWS\
+      \ CloudFormation custom resource, you don't have to write your own functions\
+      \ to send responses to the custom resource that invoked the function. AWS CloudFormation\
+      \ provides a response module ([cfn-response](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-lambda-function-code-cfnresponsemodule.html))\
+      \ that simplifies sending responses. See [Using Lambda with CloudFormation](https://docs.aws.amazon.com/lambda/latest/dg/services-cloudformation.html)\
+      \ for details."
+  LambdaFunction00TwinMakerDataReader00twxvlCodeS3ObjectVersionw6llN:
+    NoEcho: "true"
+    Type: "String"
+    Description: "For versioned objects, the version of the deployment package object\
+      \ to use."
+  LambdaFunction00dynamodbingest00xQJqiCodeS3ObjectVersionSEfw7:
+    NoEcho: "true"
+    Type: "String"
+    Description: "For versioned objects, the version of the deployment package object\
+      \ to use."
+  LambdaFunction00dynamodbingest00xQJqiCodeS3BucketuKnNa:
+    NoEcho: "true"
+    Type: "String"
+    Description: "An Amazon S3 bucket in the same AWS-Region as your function. The\
+      \ bucket can be in a different AWS-account."
+  LambdaFunction003phleakAlarmModelNotificationLambda170323392496500IWDvOCodeS3ObjectVersions22AR:
+    NoEcho: "true"
+    Type: "String"
+    Description: "For versioned objects, the version of the deployment package object\
+      \ to use."
+  LambdaFunction00TwinMakerDataReader00twxvlCodeSourceKMSKeyArnMqnvl:
+    NoEcho: "true"
+    Type: "String"
+    Description: "Value of write only property Code/SourceKMSKeyArn of resource LambdaFunction00TwinMakerDataReader00twxvl."
+  LambdaFunction00dynamodbingest00xQJqiCodeSourceKMSKeyArntILRR:
+    NoEcho: "true"
+    Type: "String"
+    Description: "Value of write only property Code/SourceKMSKeyArn of resource LambdaFunction00dynamodbingest00xQJqi."
+Resources:
+  IAMManagedPolicy00policytwinmakerreaddata00aJ6Zg:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::IAM::ManagedPolicy"
+    DeletionPolicy: "Retain"
+    Properties:
+      ManagedPolicyName: "twin-maker-read-data"
+      Path: "/"
+      Description: ""
+      Groups: []
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+        - Resource: "arn:aws:logs:us-east-1:144646901847:*"
+          Action: "logs:CreateLogGroup"
+          Effect: "Allow"
+        - Resource:
+          - "arn:aws:logs:us-east-1:144646901847:log-group:/aws/lambda/TwinMakerDataReader:*"
+          Action:
+          - "logs:CreateLogStream"
+          - "logs:PutLogEvents"
+          Effect: "Allow"
+        - Resource:
+          - "arn:aws:lambda:us-east-1:144646901847:function:TwinMakerDataReader"
+          - "arn:aws:lambda:us-east-1:144646901847:function:TwinMakerSchemaInit"
+          Action: "lambda:InvokeFunction"
+          Effect: "Allow"
+          Sid: "VisualEditor0"
+      Roles:
+      - Ref: "IAMRole00twinmakerworkshoprole00H52kC"
+      - Ref: "IAMRole00awslambdatwinmakerreaddata00gmlai"
+      Users: []
+  IAMManagedPolicy00policyserviceroleAWSLambdaBasicExecutionRoleacc62a7e0fc449438c2cad47dede0a4000YKL3n:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::IAM::ManagedPolicy"
+    DeletionPolicy: "Retain"
+    Properties:
+      ManagedPolicyName: "AWSLambdaBasicExecutionRole-acc62a7e-0fc4-4943-8c2c-ad47dede0a40"
+      Path: "/service-role/"
+      Description: ""
+      Groups: []
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+        - Resource: "arn:aws:logs:us-east-1:144646901847:*"
+          Action: "logs:CreateLogGroup"
+          Effect: "Allow"
+        - Resource:
+          - "arn:aws:logs:us-east-1:144646901847:log-group:/aws/lambda/dynamodb_ingest:*"
+          Action:
+          - "logs:CreateLogStream"
+          - "logs:PutLogEvents"
+          Effect: "Allow"
+      Roles:
+      - Ref: "IAMRole00dynamobdingestrole3fs0ndk600KMYSE"
+      Users: []
+  S3BucketPolicy003phleakchecker5labeldata00LoYAl:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::S3::BucketPolicy"
+    DeletionPolicy: "Retain"
+    Properties:
+      Bucket:
+        Ref: "S3Bucket003phleakchecker5labeldata00QmkQ2"
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+        - Resource: "arn:aws:s3:::3phleakchecker5labeldata/*"
+          Action: "s3:Get*"
+          Effect: "Allow"
+          Principal:
+            Service: "lookoutequipment.amazonaws.com"
+  LambdaFunction003phleakAlarmModelNotificationLambda170323392496500IWDvO:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::Lambda::Function"
+    DeletionPolicy: "Retain"
+    Properties:
+      MemorySize: 128
+      Description: ""
+      TracingConfig:
+        Mode: "PassThrough"
+      Timeout: 15
+      RuntimeManagementConfig:
+        UpdateRuntimeOn: "Auto"
+      Handler: "events_alarm_notification_template.lambda_handler"
+      Code:
+        SourceKMSKeyArn:
+          Ref: "LambdaFunction003phleakAlarmModelNotificationLambda170323392496500IWDvOCodeSourceKMSKeyArnfKRIx"
+        S3ObjectVersion:
+          Ref: "LambdaFunction003phleakAlarmModelNotificationLambda170323392496500IWDvOCodeS3ObjectVersions22AR"
+        S3Bucket:
+          Ref: "LambdaFunction003phleakAlarmModelNotificationLambda170323392496500IWDvOCodeS3BucketGMNYR"
+        ZipFile:
+          Ref: "LambdaFunction003phleakAlarmModelNotificationLambda170323392496500IWDvOCodeZipFileFQXMH"
+        ImageUri:
+          Ref: "LambdaFunction003phleakAlarmModelNotificationLambda170323392496500IWDvOCodeImageUriUWacT"
+        S3Key:
+          Ref: "LambdaFunction003phleakAlarmModelNotificationLambda170323392496500IWDvOCodeS3KeykBFGW"
+      Role:
+        Fn::GetAtt:
+        - "IAMRole003phleakAlarmModelLambdaRole170323392461100S4d6m"
+        - "Arn"
+      FileSystemConfigs: []
+      FunctionName: "3phleak_Alarm_Model-NotificationLambda-1703233924965"
+      Runtime: "python3.7"
+      PackageType: "Zip"
+      LoggingConfig:
+        LogFormat: "Text"
+        LogGroup: "/aws/lambda/3phleak_Alarm_Model-NotificationLambda-1703233924965"
+      RecursiveLoop: "Terminate"
+      EphemeralStorage:
+        Size: 512
+      Architectures:
+      - "x86_64"
+  IoTPolicy00HDsitewiseEdgeDeviceTokenExchangeRoleAliasPolicyFD2T2etzf00Bus2O:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::IoT::Policy"
+    DeletionPolicy: "Retain"
+    Properties:
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+        - Resource: "arn:aws:iot:us-east-1:144646901847:rolealias/HD_sitewiseEdgeDeviceTokenExchangeRoleAlias-FD2T2etzf"
+          Action: "iot:AssumeRoleWithCertificate"
+          Effect: "Allow"
+      Tags: []
+      PolicyName: "HD_sitewiseEdgeDeviceTokenExchangeRoleAliasPolicy-FD2T2etzf"
+  LambdaPermission00function3phleak00WIdix:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::Lambda::Permission"
+    DeletionPolicy: "Retain"
+    Properties:
+      FunctionName:
+        Fn::GetAtt:
+        - "LambdaFunction003phleak00nvGkW"
+        - "Arn"
+      Action: "lambda:InvokeFunction"
+      SourceArn: "arn:aws:s3:::iotsitewise-144646901847-b887e0c9cf3b5e9f30ad3a58721ef21451f810"
+      Principal: "s3.amazonaws.com"
+      SourceAccount: "144646901847"
+  S3Bucket003phleakchecker5sensorsandlabeldata00oU6sr:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::S3::Bucket"
+    DeletionPolicy: "Retain"
+    Properties:
+      PublicAccessBlockConfiguration:
+        RestrictPublicBuckets: true
+        IgnorePublicAcls: true
+        BlockPublicPolicy: true
+        BlockPublicAcls: true
+      BucketName: "3phleakchecker5sensorsandlabeldata"
+      OwnershipControls:
+        Rules:
+        - ObjectOwnership: "BucketOwnerEnforced"
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+        - BucketKeyEnabled: true
+          ServerSideEncryptionByDefault:
+            SSEAlgorithm: "AES256"
+      Tags:
+      - Value: "sahsingh"
+        Key: "resource_owner"
+  IoTPolicy00SiteWiseHPIWinCorePolicy00JFOFZ:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::IoT::Policy"
+    DeletionPolicy: "Retain"
+    Properties:
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+        - Resource:
+          - "*"
+          Action:
+          - "iot:Publish"
+          - "iot:Subscribe"
+          - "iot:Connect"
+          - "iot:Receive"
+          Effect: "Allow"
+      Tags: []
+      PolicyName: "SiteWiseHPIWin_Core-Policy"
+  IAMManagedPolicy00policyserviceroleAWSLambdaBasicExecutionRolea9c124e68dde4784a68265f283ad8a7d00YPhAM:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::IAM::ManagedPolicy"
+    DeletionPolicy: "Retain"
+    Properties:
+      ManagedPolicyName: "AWSLambdaBasicExecutionRole-a9c124e6-8dde-4784-a682-65f283ad8a7d"
+      Path: "/service-role/"
+      Description: ""
+      Groups: []
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+        - Resource: "arn:aws:logs:us-east-1:144646901847:*"
+          Action: "logs:CreateLogGroup"
+          Effect: "Allow"
+        - Resource:
+          - "arn:aws:logs:us-east-1:144646901847:log-group:/aws/lambda/cloud_to_device:*"
+          Action:
+          - "logs:CreateLogStream"
+          - "logs:PutLogEvents"
+          Effect: "Allow"
+      Roles:
+      - Ref: "IAMRole00dynamobdingestrole3fs0ndk600KMYSE"
+      Users: []
+  S3Bucket003phleakchecker5sensorsdataerror00vMp1P:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::S3::Bucket"
+    DeletionPolicy: "Retain"
+    Properties:
+      PublicAccessBlockConfiguration:
+        RestrictPublicBuckets: true
+        IgnorePublicAcls: true
+        BlockPublicPolicy: true
+        BlockPublicAcls: true
+      BucketName: "3phleakchecker5sensorsdataerror"
+      OwnershipControls:
+        Rules:
+        - ObjectOwnership: "BucketOwnerEnforced"
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+        - BucketKeyEnabled: true
+          ServerSideEncryptionByDefault:
+            SSEAlgorithm: "AES256"
+      Tags:
+      - Value: "sahsingh"
+        Key: "resource_owner"
+  IoTThing00HDsitewiseEdgeDevice00IrKNa:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::IoT::Thing"
+    DeletionPolicy: "Retain"
+    Properties:
+      AttributePayload: {}
+      ThingName: "HD_sitewiseEdgeDevice"
+  LookoutVisionProject00lfvpoc00huWnr:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::LookoutVision::Project"
+    DeletionPolicy: "Retain"
+    Properties:
+      ProjectName: "lfv-poc"
+  IoTTopicRule00SiteWiseIngestRule00MHd2E:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::IoT::TopicRule"
+    DeletionPolicy: "Retain"
+    Properties:
+      RuleName: "SiteWiseIngestRule"
+      Tags: []
+      TopicRulePayload:
+        RuleDisabled: false
+        AwsIotSqlVersion: "2016-03-23"
+        Actions:
+        - IotSiteWise:
+            RoleArn: "arn:aws:iam::144646901847:role/service-role/SiteWiseWorkshop-MiscResources-1LOD-IoTServiceRole-O3R02F65YNLY"
+            PutAssetPropertyValueEntries:
+            - PropertyAlias: "${propertyAlias}"
+              EntryId: "${entryId}"
+              PropertyValues:
+              - Value:
+                  DoubleValue: "${value}"
+                Timestamp:
+                  TimeInSeconds: "${timeInSeconds}"
+                Quality: "${quality}"
+        Sql: "SELECT entryId, propertyAlias, value, timeInSeconds, quality FROM 'sitewise/ingest'"
+  IAMManagedPolicy00policyiottwinmakersitewises300M90yJ:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::IAM::ManagedPolicy"
+    DeletionPolicy: "Retain"
+    Properties:
+      ManagedPolicyName: "iottwinmaker-sitewise-s3"
+      Path: "/"
+      Description: ""
+      Groups: []
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+        - Resource: "*"
+          Action:
+          - "iottwinmaker:*"
+          - "iotsitewise:*"
+          - "s3:*"
+          Effect: "Allow"
+          Sid: "Statement1"
+      Roles:
+      - Ref: "IAMRole00twinmakerworkshoprole00H52kC"
+      Users: []
+  IoTPolicy00SiteWiseHPIGroupCorepolicy00kpAia:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::IoT::Policy"
+    DeletionPolicy: "Retain"
+    Properties:
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+        - Resource:
+          - "*"
+          Action:
+          - "iot:Publish"
+          - "iot:Subscribe"
+          - "iot:Connect"
+          - "iot:Receive"
+          Effect: "Allow"
+        - Resource:
+          - "*"
+          Action:
+          - "iot:GetThingShadow"
+          - "iot:UpdateThingShadow"
+          - "iot:DeleteThingShadow"
+          Effect: "Allow"
+        - Resource:
+          - "*"
+          Action:
+          - "greengrass:*"
+          Effect: "Allow"
+      Tags: []
+      PolicyName: "SiteWiseHPIGroup_Core-policy"
+  IAMRole00twinmakerworkshoprole00H52kC:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::IAM::Role"
+    DeletionPolicy: "Retain"
+    Properties:
+      Path: "/"
+      ManagedPolicyArns:
+      - "arn:aws:iam::144646901847:policy/iottwinmaker-sitewise-s3"
+      - "arn:aws:iam::144646901847:policy/twinmaker-workshop-s3-policy"
+      - "arn:aws:iam::144646901847:policy/twin-maker-grafana-workspace_policy"
+      - "arn:aws:iam::aws:policy/AmazonS3FullAccess"
+      - "arn:aws:iam::144646901847:policy/grafana-policy"
+      - "arn:aws:iam::144646901847:policy/twin-maker-read-data"
+      MaxSessionDuration: 3600
+      RoleName: "twin-maker-workshop-role"
+      Description: "Allows IoT TwinMaker to call other AWS services on your behalf."
+      Policies:
+      - PolicyDocument:
+          Version: "2012-10-17"
+          Statement:
+          - Resource: "arn:aws:iotevents:us-east-1:144646901847:Availability/*"
+            Action:
+            - "iotevents:CreateAlarmModel"
+            - "iotevents:UpdateAlarmModel"
+            Effect: "Allow"
+          - Resource: "arn:aws:iotsitewise:us-east-1:144646901847:Machine_LeakChecker/*"
+            Action:
+            - "iotsitewise:DescribeAssetModel"
+            - "iotsitewise:UpdateAssetModelPropertyRouting"
+            Effect: "Allow"
+        PolicyName: "Alaram_Policy"
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+        - Action: "sts:AssumeRole"
+          Effect: "Allow"
+          Principal:
+            Service:
+            - "iottwinmaker.amazonaws.com"
+            - "grafana.amazonaws.com"
+            AWS: "arn:aws:iam::144646901847:role/service-role/AmazonGrafanaServiceRole-OL9I7vbYm"
+          Sid: ""
+  IoTTopicRule00opcdatarule00l7YYy:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::IoT::TopicRule"
+    DeletionPolicy: "Retain"
+    Properties:
+      RuleName: "opc_data_rule"
+      Tags: []
+      TopicRulePayload:
+        RuleDisabled: false
+        Description: ""
+        AwsIotSqlVersion: "2016-03-23"
+        Actions:
+        - Lambda:
+            FunctionArn:
+              Fn::GetAtt:
+              - "LambdaFunction00dynamodbingest00xQJqi"
+              - "Arn"
+        Sql: "SELECT *, topic() as deviceID, timestamp() as ts FROM 'device1'"
+  IoTPolicy00HDsitewiseEdgeDeviceIotThingPolicyFD2T2etzf0089ZaQ:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::IoT::Policy"
+    DeletionPolicy: "Retain"
+    Properties:
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+        - Resource: "*"
+          Action:
+          - "iot:Publish"
+          - "iot:Subscribe"
+          - "iot:Receive"
+          - "iot:Connect"
+          - "greengrass:*"
+          Effect: "Allow"
+      Tags: []
+      PolicyName: "HD_sitewiseEdgeDeviceIotThingPolicy-FD2T2etzf"
+  S3Bucket00lfvpoc00wJHhW:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::S3::Bucket"
+    DeletionPolicy: "Retain"
+    Properties:
+      PublicAccessBlockConfiguration:
+        RestrictPublicBuckets: true
+        IgnorePublicAcls: true
+        BlockPublicPolicy: true
+        BlockPublicAcls: true
+      BucketName: "lfv-poc"
+      VersioningConfiguration:
+        Status: "Enabled"
+      OwnershipControls:
+        Rules:
+        - ObjectOwnership: "BucketOwnerEnforced"
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+        - BucketKeyEnabled: true
+          ServerSideEncryptionByDefault:
+            SSEAlgorithm: "AES256"
+      Tags:
+      - Value: "sahsingh"
+        Key: "resource_owner"
+  IAMManagedPolicy00policyserviceroleAWSLambdaBasicExecutionRole7833c360795540ebbd5017c7335facfc00Wn690:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::IAM::ManagedPolicy"
+    DeletionPolicy: "Retain"
+    Properties:
+      ManagedPolicyName: "AWSLambdaBasicExecutionRole-7833c360-7955-40eb-bd50-17c7335facfc"
+      Path: "/service-role/"
+      Description: ""
+      Groups: []
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+        - Resource: "arn:aws:logs:us-east-1:144646901847:*"
+          Action: "logs:CreateLogGroup"
+          Effect: "Allow"
+        - Resource:
+          - "arn:aws:logs:us-east-1:144646901847:log-group:/aws/lambda/3phleak:*"
+          Action:
+          - "logs:CreateLogStream"
+          - "logs:PutLogEvents"
+          Effect: "Allow"
+      Roles:
+      - Ref: "IAMRole003phleakrolec2cvcj0y00EV3Ij"
+      Users: []
+  IAMManagedPolicy00policyservicerole3phleakAlarmModelLambdaRole1703233924611policy00xFkBn:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::IAM::ManagedPolicy"
+    DeletionPolicy: "Retain"
+    Properties:
+      ManagedPolicyName: "3phleak_Alarm_ModelLambdaRole-1703233924611_policy"
+      Path: "/service-role/"
+      Description: ""
+      Groups: []
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+        - Resource: "*"
+          Action:
+          - "ses:GetIdentityVerificationAttributes"
+          - "ses:SendEmail"
+          - "ses:VerifyEmailIdentity"
+          Effect: "Allow"
+        - Resource: "*"
+          Action:
+          - "sns:Publish"
+          - "sns:OptInPhoneNumber"
+          - "sns:CheckIfPhoneNumberIsOptedOut"
+          Effect: "Allow"
+        - Resource: "arn:aws:sns:*:*:*"
+          Action: "sns:Publish"
+          Effect: "Deny"
+      Roles:
+      - Ref: "IAMRole003phleakAlarmModelLambdaRole170323392461100S4d6m"
+      Users: []
+  IAMRole00awslambdatwinmakerreaddata00gmlai:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::IAM::Role"
+    DeletionPolicy: "Retain"
+    Properties:
+      Path: "/"
+      ManagedPolicyArns:
+      - "arn:aws:iam::144646901847:policy/twin-maker-read-data"
+      MaxSessionDuration: 3600
+      RoleName: "aws-lambda-twin-maker-read-data"
+      Description: "Allows Lambda functions to call AWS services on your behalf."
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+        - Action: "sts:AssumeRole"
+          Effect: "Allow"
+          Principal:
+            Service: "lambda.amazonaws.com"
+  IoTTwinMakerWorkspace00mfidev00b531S:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::IoTTwinMaker::Workspace"
+    DeletionPolicy: "Retain"
+    Properties:
+      Role:
+        Fn::GetAtt:
+        - "IAMRole00twinmakerworkshoprole00H52kC"
+        - "Arn"
+      WorkspaceId: "mfi-dev"
+      Description: ""
+      S3Location:
+        Fn::GetAtt:
+        - "S3Bucket00iottwinmakers3007GBva"
+        - "Arn"
+      Tags:
+        TwinMakerDashboardRole: "arn:aws:iam::144646901847:role/twin-maker-workshop-role"
+  IAMRole003phleakrolec2cvcj0y00EV3Ij:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::IAM::Role"
+    DeletionPolicy: "Retain"
+    Properties:
+      Path: "/service-role/"
+      ManagedPolicyArns:
+      - "arn:aws:iam::144646901847:policy/service-role/AWSLambdaBasicExecutionRole-7833c360-7955-40eb-bd50-17c7335facfc"
+      - "arn:aws:iam::aws:policy/AWSIoTSiteWiseFullAccess"
+      - "arn:aws:iam::aws:policy/AmazonSNSFullAccess"
+      - "arn:aws:iam::aws:policy/AmazonS3FullAccess"
+      MaxSessionDuration: 3600
+      RoleName: "3phleak-role-c2cvcj0y"
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+        - Action: "sts:AssumeRole"
+          Effect: "Allow"
+          Principal:
+            Service:
+            - "s3.amazonaws.com"
+            - "lambda.amazonaws.com"
+  S3BucketPolicy003phleakchecker5sensorsandlabeldata00mwY5Y:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::S3::BucketPolicy"
+    DeletionPolicy: "Retain"
+    Properties:
+      Bucket:
+        Ref: "S3Bucket003phleakchecker5sensorsandlabeldata00oU6sr"
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+        - Resource: "arn:aws:s3:::3phleakchecker5sensorsandlabeldata/*"
+          Action: "s3:Get*"
+          Effect: "Allow"
+          Principal:
+            Service: "iotsitewise.amazonaws.com"
+  LambdaFunction00dynamodbingest00xQJqi:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::Lambda::Function"
+    DeletionPolicy: "Retain"
+    Properties:
+      MemorySize: 128
+      Description: ""
+      TracingConfig:
+        Mode: "PassThrough"
+      Timeout: 3
+      RuntimeManagementConfig:
+        UpdateRuntimeOn: "Auto"
+      Handler: "lambda_function.lambda_handler"
+      Code:
+        SourceKMSKeyArn:
+          Ref: "LambdaFunction00dynamodbingest00xQJqiCodeSourceKMSKeyArntILRR"
+        S3ObjectVersion:
+          Ref: "LambdaFunction00dynamodbingest00xQJqiCodeS3ObjectVersionSEfw7"
+        S3Bucket:
+          Ref: "LambdaFunction00dynamodbingest00xQJqiCodeS3BucketuKnNa"
+        ZipFile:
+          Ref: "LambdaFunction00dynamodbingest00xQJqiCodeZipFileIGY2y"
+        ImageUri:
+          Ref: "LambdaFunction00dynamodbingest00xQJqiCodeImageUri825uy"
+        S3Key:
+          Ref: "LambdaFunction00dynamodbingest00xQJqiCodeS3Keyuuxml"
+      Role:
+        Fn::GetAtt:
+        - "IAMRole00dynamobdingestrole3fs0ndk600KMYSE"
+        - "Arn"
+      FileSystemConfigs: []
+      FunctionName: "dynamodb_ingest"
+      Runtime: "python3.11"
+      PackageType: "Zip"
+      LoggingConfig:
+        LogFormat: "Text"
+        LogGroup: "/aws/lambda/dynamodb_ingest"
+      RecursiveLoop: "Terminate"
+      EphemeralStorage:
+        Size: 512
+      Architectures:
+      - "x86_64"
+  IoTThing00SiteWiseHPIGroupCore002GL9H:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::IoT::Thing"
+    DeletionPolicy: "Retain"
+    Properties:
+      AttributePayload: {}
+      ThingName: "SiteWiseHPIGroup_Core"
+  LambdaFunction003phleak00nvGkW:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::Lambda::Function"
+    DeletionPolicy: "Retain"
+    Properties:
+      MemorySize: 128
+      Description: ""
+      TracingConfig:
+        Mode: "PassThrough"
+      Timeout: 899
+      RuntimeManagementConfig:
+        UpdateRuntimeOn: "Auto"
+      Handler: "lambda_function.lambda_handler"
+      Code:
+        SourceKMSKeyArn:
+          Ref: "LambdaFunction003phleak00nvGkWCodeSourceKMSKeyArnMlEuM"
+        S3ObjectVersion:
+          Ref: "LambdaFunction003phleak00nvGkWCodeS3ObjectVersionsd7Ba"
+        S3Bucket:
+          Ref: "LambdaFunction003phleak00nvGkWCodeS3BucketlN8PM"
+        ZipFile:
+          Ref: "LambdaFunction003phleak00nvGkWCodeZipFilepG3Xp"
+        ImageUri:
+          Ref: "LambdaFunction003phleak00nvGkWCodeImageUriEBUVE"
+        S3Key:
+          Ref: "LambdaFunction003phleak00nvGkWCodeS3KeyAr2D4"
+      Role:
+        Fn::GetAtt:
+        - "IAMRole003phleakrolec2cvcj0y00EV3Ij"
+        - "Arn"
+      FileSystemConfigs: []
+      FunctionName: "3phleak"
+      Runtime: "python3.8"
+      PackageType: "Zip"
+      LoggingConfig:
+        LogFormat: "Text"
+        LogGroup: "/aws/lambda/3phleak"
+      RecursiveLoop: "Terminate"
+      EphemeralStorage:
+        Size: 512
+      Architectures:
+      - "x86_64"
+  AthenaWorkGroup00primary00gs9E2:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::Athena::WorkGroup"
+    DeletionPolicy: "Retain"
+    Properties:
+      WorkGroupConfiguration:
+        RequesterPaysEnabled: false
+        EnforceWorkGroupConfiguration: false
+        EngineVersion:
+          SelectedEngineVersion: "AUTO"
+        PublishCloudWatchMetricsEnabled: false
+        ResultConfiguration: {}
+      State: "ENABLED"
+      Tags: []
+      Name: "primary"
+  IAMManagedPolicy00policyserviceroleAWSLambdaBasicExecutionRole28279e29162a4b5e8954f0e0b819e5c0008dgph:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::IAM::ManagedPolicy"
+    DeletionPolicy: "Retain"
+    Properties:
+      ManagedPolicyName: "AWSLambdaBasicExecutionRole-28279e29-162a-4b5e-8954-f0e0b819e5c0"
+      Path: "/service-role/"
+      Description: ""
+      Groups: []
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+        - Resource: "arn:aws:logs:us-east-1:144646901847:*"
+          Action: "logs:CreateLogGroup"
+          Effect: "Allow"
+        - Resource:
+          - "arn:aws:logs:us-east-1:144646901847:log-group:/aws/lambda/dynamobd_ingest:*"
+          Action:
+          - "logs:CreateLogStream"
+          - "logs:PutLogEvents"
+          Effect: "Allow"
+      Roles:
+      - Ref: "IAMRole00dynamobdingestrole3fs0ndk600KMYSE"
+      Users: []
+  IAMRole003phleakAlarmModelLambdaRole170323392461100S4d6m:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::IAM::Role"
+    DeletionPolicy: "Retain"
+    Properties:
+      Path: "/service-role/"
+      ManagedPolicyArns:
+      - "arn:aws:iam::144646901847:policy/service-role/3phleak_Alarm_ModelLambdaRole-1703233924611_policy"
+      MaxSessionDuration: 3600
+      RoleName: "3phleak_Alarm_ModelLambdaRole-1703233924611"
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+        - Action: "sts:AssumeRole"
+          Effect: "Allow"
+          Principal:
+            Service: "lambda.amazonaws.com"
+  SNSTopic003phleak00YIi4P:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::SNS::Topic"
+    DeletionPolicy: "Retain"
+    Properties:
+      FifoTopic: false
+      Subscription:
+      - Endpoint: "anurag.pandey@hitachids.com"
+        Protocol: "email"
+      - Endpoint: "sahil.singh@hitachids.com"
+        Protocol: "email"
+      TracingConfig: "PassThrough"
+      ArchivePolicy: {}
+      TopicName: "3phleak"
+  IAMRole00dynamobdingestrole3fs0ndk600KMYSE:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::IAM::Role"
+    DeletionPolicy: "Retain"
+    Properties:
+      Path: "/service-role/"
+      ManagedPolicyArns:
+      - "arn:aws:iam::144646901847:policy/service-role/AWSLambdaBasicExecutionRole-a9c124e6-8dde-4784-a682-65f283ad8a7d"
+      - "arn:aws:iam::aws:policy/AmazonDynamoDBFullAccess"
+      - "arn:aws:iam::aws:policy/AWSIoTFullAccess"
+      - "arn:aws:iam::144646901847:policy/service-role/AWSLambdaBasicExecutionRole-28279e29-162a-4b5e-8954-f0e0b819e5c0"
+      - "arn:aws:iam::144646901847:policy/service-role/AWSLambdaBasicExecutionRole-acc62a7e-0fc4-4943-8c2c-ad47dede0a40"
+      MaxSessionDuration: 3600
+      RoleName: "dynamobd_ingest-role-3fs0ndk6"
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+        - Action: "sts:AssumeRole"
+          Effect: "Allow"
+          Principal:
+            Service: "lambda.amazonaws.com"
+  S3Bucket00iottwinmakers3007GBva:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::S3::Bucket"
+    DeletionPolicy: "Retain"
+    Properties:
+      PublicAccessBlockConfiguration:
+        RestrictPublicBuckets: true
+        IgnorePublicAcls: true
+        BlockPublicPolicy: true
+        BlockPublicAcls: true
+      BucketName: "iot-twinmaker-s3"
+      CorsConfiguration:
+        CorsRules:
+        - ExposedHeaders:
+          - "ETag"
+          AllowedMethods:
+          - "GET"
+          - "PUT"
+          - "POST"
+          - "DELETE"
+          - "HEAD"
+          AllowedOrigins:
+          - "*"
+          AllowedHeaders:
+          - "*"
+      OwnershipControls:
+        Rules:
+        - ObjectOwnership: "BucketOwnerEnforced"
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+        - BucketKeyEnabled: true
+          ServerSideEncryptionByDefault:
+            SSEAlgorithm: "AES256"
+      Tags:
+      - Value: "raguda"
+        Key: "resource_owner"
+  IoTSiteWiseAssetModel00944c4ad0d5384cbfb1c275f1f92aad0900ymxj0:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::IoTSiteWise::AssetModel"
+    DeletionPolicy: "Retain"
+    Properties:
+      AssetModelCompositeModels: []
+      AssetModelHierarchies:
+      - ChildAssetModelId: "bff2a7b4-45f0-4574-9a3b-6e1174acb132"
+        Name: "Hir_Company"
+      AssetModelType: "ASSET_MODEL"
+      AssetModelName: "Company"
+  IoTSiteWiseAsset0051248f4c2b6b429c8eebc2e95e6efbb100iwlDg:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::IoTSiteWise::Asset"
+    DeletionPolicy: "Retain"
+    Properties:
+      AssetProperties: []
+      AssetModelId:
+        Ref: "IoTSiteWiseAssetModel00944c4ad0d5384cbfb1c275f1f92aad0900ymxj0"
+      AssetName: "Solution Industries"
+      Tags: []
+      AssetDescription: "Company"
+      AssetHierarchies:
+      - LogicalId: "8c6045a1-6cc5-49c6-8f60-1bf90b6d5aaa"
+        ChildAssetId: "93cca8cd-73ee-4387-b1ff-a15c8610fc65"
+      - LogicalId: "8c6045a1-6cc5-49c6-8f60-1bf90b6d5aaa"
+        ChildAssetId: "a16238fe-9c42-41cb-86fc-bab46adfae66"
+      - LogicalId: "8c6045a1-6cc5-49c6-8f60-1bf90b6d5aaa"
+        ChildAssetId: "cc0396d4-7d9f-479f-b31d-db82a0a03be1"
+      - LogicalId: "8c6045a1-6cc5-49c6-8f60-1bf90b6d5aaa"
+        ChildAssetId: "c0bff8a0-1a27-4b80-92d6-266f5549b01f"
+      - LogicalId: "8c6045a1-6cc5-49c6-8f60-1bf90b6d5aaa"
+        ChildAssetId: "2432baab-2ccc-4d36-b465-820e292ce9b7"
+      - LogicalId: "8c6045a1-6cc5-49c6-8f60-1bf90b6d5aaa"
+        ChildAssetId: "8afb234d-0487-4234-9e4e-980b4b6b56b7"
+  S3Bucket003phleakchecker5labeldata00QmkQ2:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::S3::Bucket"
+    DeletionPolicy: "Retain"
+    Properties:
+      PublicAccessBlockConfiguration:
+        RestrictPublicBuckets: true
+        IgnorePublicAcls: true
+        BlockPublicPolicy: true
+        BlockPublicAcls: true
+      BucketName: "3phleakchecker5labeldata"
+      OwnershipControls:
+        Rules:
+        - ObjectOwnership: "BucketOwnerEnforced"
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+        - BucketKeyEnabled: true
+          ServerSideEncryptionByDefault:
+            SSEAlgorithm: "AES256"
+      Tags:
+      - Value: "sahsingh"
+        Key: "resource_owner"
+  LambdaPermission00functiondynamodbingest00kqXaI:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::Lambda::Permission"
+    DeletionPolicy: "Retain"
+    Properties:
+      FunctionName:
+        Fn::GetAtt:
+        - "LambdaFunction00dynamodbingest00xQJqi"
+        - "Arn"
+      Action: "lambda:InvokeFunction"
+      SourceArn:
+        Fn::GetAtt:
+        - "IoTTopicRule00opcdatarule00l7YYy"
+        - "Arn"
+      Principal: "iot.amazonaws.com"
+  IAMManagedPolicy00policytwinmakerworkshops3policy00xOPbi:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::IAM::ManagedPolicy"
+    DeletionPolicy: "Retain"
+    Properties:
+      ManagedPolicyName: "twinmaker-workshop-s3-policy"
+      Path: "/"
+      Description: ""
+      Groups: []
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+        - Resource:
+          - "arn:aws:s3:::iot-twinmaker-s3/*"
+          - "arn:aws:s3:::iot-twinmaker-s3"
+          Action:
+          - "s3:PutObject"
+          - "s3:GetObject"
+          - "s3:ListBucket"
+          - "s3:GetBucket*"
+          Effect: "Allow"
+          Sid: "VisualEditor0"
+        - Resource: "arn:aws:s3:::iot-twinmaker-s3/*"
+          Action: "s3:DeleteObject"
+          Effect: "Allow"
+          Sid: "VisualEditor1"
+      Roles:
+      - Ref: "IAMRole00twinmakerworkshoprole00H52kC"
+      Users: []
+  IAMManagedPolicy00policygrafanapolicy003ZeMj:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::IAM::ManagedPolicy"
+    DeletionPolicy: "Retain"
+    Properties:
+      ManagedPolicyName: "grafana-policy"
+      Path: "/"
+      Description: ""
+      Groups:
+      - "grafana"
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+        - Resource:
+          - "arn:aws:s3:::iot-twinmaker-s3"
+          - "arn:aws:s3:::iot-twinmaker-s3/*"
+          Action:
+          - "s3:GetObject"
+          Effect: "Allow"
+        - Resource:
+          - "arn:aws:iottwinmaker:us-east-1:144646901847:workspace/mfi-dev"
+          - "arn:aws:iottwinmaker:us-east-1:144646901847:workspace/mfi-dev/*"
+          Action:
+          - "iottwinmaker:Get*"
+          - "iottwinmaker:List*"
+          Effect: "Allow"
+        - Resource: "*"
+          Action:
+          - "iottwinmaker:ListWorkspaces"
+          Effect: "Allow"
+      Roles:
+      - Ref: "IAMRole00twinmakerworkshoprole00H52kC"
+      Users: []
+  IoTThing00SiteWiseHPIWinCore00dUwqx:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::IoT::Thing"
+    DeletionPolicy: "Retain"
+    Properties:
+      AttributePayload: {}
+      ThingName: "SiteWiseHPIWin_Core"
+  IoTSiteWiseGateway00dbf468978b334ae591379fb83dd03bf300fSjWp:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::IoTSiteWise::Gateway"
+    DeletionPolicy: "Retain"
+    Properties:
+      GatewayCapabilitySummaries:
+      - CapabilityNamespace: "iotsitewise:opcuacollector:2"
+        CapabilityConfiguration: "{\"sources\":[{\"name\":\"Server1\",\"endpoint\"\
+          :{\"certificateTrust\":{\"type\":\"TrustAny\"},\"endpointUri\":\"opc.tcp://54.90.226.254:53530/OPCUA/SimulationServer\"\
+          ,\"securityPolicy\":\"NONE\",\"messageSecurityMode\":\"NONE\",\"identityProvider\"\
+          :{\"type\":\"Anonymous\"},\"nodeFilterRules\":[{\"action\":\"INCLUDE\",\"\
+          definition\":{\"type\":\"OpcUaRootPath\",\"rootPath\":\"/\"}}]},\"measurementDataStreamPrefix\"\
+          :\"\",\"destination\":{\"type\":\"StreamManager\",\"streamName\":\"SiteWise_Stream\"\
+          ,\"streamBufferSize\":10}}]}"
+      - CapabilityNamespace: "iotsitewise:publisher:2"
+        CapabilityConfiguration: "{\"SiteWisePublisherConfiguration\":{\"publishingOrder\"\
+          :\"TIME_ORDER\",\"enableCompression\":true}}"
+      GatewayName: "Gateway-IC-NV"
+      GatewayPlatform:
+        GreengrassV2:
+          CoreDeviceThingName: "GatewayGreengrassCoreDevice-IC-NV"
+  S3Bucket003phleakchecker5sensorsdata000akR9:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::S3::Bucket"
+    DeletionPolicy: "Retain"
+    Properties:
+      PublicAccessBlockConfiguration:
+        RestrictPublicBuckets: true
+        IgnorePublicAcls: true
+        BlockPublicPolicy: true
+        BlockPublicAcls: true
+      BucketName: "3phleakchecker5sensorsdata"
+      OwnershipControls:
+        Rules:
+        - ObjectOwnership: "BucketOwnerEnforced"
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+        - BucketKeyEnabled: true
+          ServerSideEncryptionByDefault:
+            SSEAlgorithm: "AES256"
+      Tags:
+      - Value: "sahsingh"
+        Key: "resource_owner"
+  LambdaFunction00TwinMakerDataReader00twxvl:
+    UpdateReplacePolicy: "Retain"
+    Type: "AWS::Lambda::Function"
+    DeletionPolicy: "Retain"
+    Properties:
+      MemorySize: 512
+      Description: ""
+      TracingConfig:
+        Mode: "PassThrough"
+      Timeout: 300
+      RuntimeManagementConfig:
+        UpdateRuntimeOn: "Auto"
+      Handler: "com.digital.twinmaker.TwinmakerHTTP::handleRequest"
+      Code:
+        SourceKMSKeyArn:
+          Ref: "LambdaFunction00TwinMakerDataReader00twxvlCodeSourceKMSKeyArnMqnvl"
+        S3ObjectVersion:
+          Ref: "LambdaFunction00TwinMakerDataReader00twxvlCodeS3ObjectVersionw6llN"
+        S3Bucket:
+          Ref: "LambdaFunction00TwinMakerDataReader00twxvlCodeS3Buckety00aL"
+        ZipFile:
+          Ref: "LambdaFunction00TwinMakerDataReader00twxvlCodeZipFilegJxtN"
+        ImageUri:
+          Ref: "LambdaFunction00TwinMakerDataReader00twxvlCodeImageUri5MpVV"
+        S3Key:
+          Ref: "LambdaFunction00TwinMakerDataReader00twxvlCodeS3Key55seF"
+      Role:
+        Fn::GetAtt:
+        - "IAMRole00awslambdatwinmakerreaddata00gmlai"
+        - "Arn"
+      FileSystemConfigs: []
+      FunctionName: "TwinMakerDataReader"
+      Runtime: "java17"
+      PackageType: "Zip"
+      LoggingConfig:
+        LogFormat: "Text"
+        LogGroup: "/aws/lambda/TwinMakerDataReader"
+      RecursiveLoop: "Terminate"
+      EphemeralStorage:
+        Size: 512
+      Architectures:
+      - "x86_64"
